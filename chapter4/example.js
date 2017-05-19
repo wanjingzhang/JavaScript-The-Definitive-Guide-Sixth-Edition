@@ -17,3 +17,10 @@ var o = {x:1,y:2};
 delete o.x;
 Util.log("x" in o); //==> false
 
+var a =[1,2,3];
+delete a[2];
+Util.log(a);
+
+var o = {x:1,y:2};
+delete o.x;
+Util.log(typeof o.x);
