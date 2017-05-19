@@ -1,5 +1,4 @@
 
-//1.If
 var username = " wanjing";
 var greeting = "hello";
 if(username)
