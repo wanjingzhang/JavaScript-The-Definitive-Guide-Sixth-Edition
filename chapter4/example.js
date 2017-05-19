@@ -1,15 +1,11 @@
-<<<<<<< HEAD
+
 //1.If
-=======
->>>>>>> master
 var username = " wanjing";
 var greeting = "hello";
 if(username)
   greeting += username;
 else
   greeting += "there";
-
-<<<<<<< HEAD
 Util.log(greeting);
 
 //2.typeof
@@ -22,7 +18,3 @@ var o = {x:1,y:2};
 delete o.x;
 Util.log("x" in o); //==> false
 
-
-=======
-console.log(greeting);
->>>>>>> master
