@@ -5,4 +5,4 @@ function factorial(x){
   return f;
 }
 
-Util.log(factorial(-3));
+Util.log(factorial(3));
